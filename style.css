@@ -1,0 +1,140 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+/* Header Styling */
+#header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #f8f8f8; 
+}
+
+#header h1 {
+    margin: 0;
+    font-size: 3rem;
+    text-transform:uppercase;
+    text-align: center;
+    color: #cc9b40;
+}
+
+#header img {
+    max-width: 150px;
+    height: auto;
+}
+
+
+.category-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.category-box {
+    flex: 1;
+    margin-right: 20px;
+    text-align: center;
+    border: #cc9b40 1px solid;
+}
+
+.category-box:last-child {
+    margin-right: 0;
+}
+
+.category-title {
+    margin: 20px;
+    background-color: #cc9b40;
+    font-size: 2rem;
+    font-family: 'Baloo Tamma 2', cursive;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: center;
+    color: white;
+}
+
+/* Country table styling */
+.country-data-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.country-data-table th, .country-data-table td {
+    padding: 8px;
+    border: none;
+    text-align: center;
+}
+
+.country-data-table th {
+    border: none;
+}
+
+.country-data-table td:last-child {
+    border: none; 
+}
+
+.show-laureates-btn {
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+h2 {
+    color: #cc9b40;
+    font-size: 2rem;
+    text-align: center;
+}
+
+caption {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: center;
+    color: #cc9b40;
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 8px;
+    border: 1px solid #cc9b40;
+    text-align: left;
+}
+
+/* Button Styling */
+button {
+    padding: 5px 10px;
+    background-color: #cc9b40;
+    color: white;
+    cursor: pointer;
+    border: none;
+}
+
+button:hover {
+    background-color: #b38834;
+}
+
+/* Center-align the content of laureate table */
+#laureate-table th, #laureate-table td {
+    text-align: center;
+    vertical-align: middle; 
+}
+
+.bio-row td {
+    padding: 15px;
+    background-color: #f9f9f9;
+    border-top: 1px solid #ddd;
+    font-style: italic;
+    font-size: 1.1rem;
+}
+
+/* Biography */
+.bio-row td p {
+    text-align: left;
+    margin: 0;
+    text-indent: 2em;
+}
