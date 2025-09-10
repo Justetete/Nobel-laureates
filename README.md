@@ -3,6 +3,8 @@
 A project exploring **Nobel Prize Laureates** through data and web presentation.  
 This repository highlights award categories, laureates' details, and insights into Nobel history.
 
+👉🏻 Click this [link](https://justetete.github.io/Nobel-laureates/) to see what it looks like
+
 ---
 
 ## ✨ Features
